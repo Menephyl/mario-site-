@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    
+}
+
+.caixa-mae{
+    display: flex;
+    height: 100vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.main{
+   width: 40%; 
+}
+img{
+
+    height: 200px;
+}
+button{
+    color: #fff;
+    background-color:#c51111 ;
+    border-radius: 3px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    cursor:pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* .logo-mario{
+
+} */
+
+.imagem-mario-luigi{
+    height: 500px;
+}
+
+.caixa-video{
+ position: fixed;
+ z-index: -1;   
+ top: 0;
+}
+
+video{
+    width: 100vw;
+}
+.mascara{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+
+}
