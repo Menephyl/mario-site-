@@ -5,6 +5,10 @@
 }
 
 
+.header img{
+    height: 60px;
+}
+
 body{
     height: 100vh;
     
