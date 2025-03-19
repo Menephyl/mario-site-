@@ -65,3 +65,10 @@ video{
     top: 0;
 
 }
+
+.link img{
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
