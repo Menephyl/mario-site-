@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<div class="mascara-formulario">
+<div class="mascara-formulario" onclick="hideForm()">
     
 </div>
 
@@ -33,7 +33,7 @@
                 Não se preocupe, porque estamos aqui, os encanadores mais famosos do Reino dos Cogumelos!</p>
             
 
-            <button>Entre em contato </button>
+            <button onclick="contato()">Entre em contato </button>
         </div>3
         <div><img src="assets/mario.png" alt="mario-luigi" class="imagem-mario-luigi"></div>
     </div>
@@ -46,14 +46,18 @@
         <img src="assets/whatsapp.png" alt="link para o whatsapp ">
     </a>
 
-<form  class="form">
-<input placeholder="Seu Nome">
-<input placeholder="Seu telefone">
-<textarea placeholder="Digite seu problema aqui..."></textarea>
-<button>Pedir orcamento</button>
+<form  class="form" 
+    action="https://formcarry.com/s/QSMNblbpfM7"
+  method="POST"
+  enctype="multipart/form-data">
+    
+<input placeholder="Seu Nome" type="text" name="nome">
+<input placeholder="Seu telefone" type="tel" name="telefone">
+<textarea placeholder="Digite seu problema aqui..." name="=duvida"></textarea>
+<button type="submit">Pedir orcamento</button>
 
 </form>
 
 </body>
-
+<script src="script.js"></script>
 </html>
