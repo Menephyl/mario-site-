@@ -1,6 +1,8 @@
 🍄 Mario Site
 Landing page inspirada no universo Mario, desenvolvida como modelo de serviço. O projeto foca em layout visual, navegação fluida e estrutura modular — ideal para treinar HTML, CSS e responsividade.
 
+![Uploading Captura de tela 2025-09-09 163047.png…]()
+
 🚀 Funcionalidades
 Design temático baseado no Mario Bros
 
